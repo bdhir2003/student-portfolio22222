@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bobby Dhir | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <h1>Hi, I am<br><span class="hero-name">Bobby Dhir</span></h1>
+      <h2>I like <span class="hero-highlight">Web Technologies|</span></h2>
+      <p class="hero-desc">
+        I'm currently a student passionate about software development, web technologies, and creative problem solving. I enjoy building modern web apps, collaborating with others, and learning new tech every day. My journey includes hands-on experience in teamwork, leadership, and technical projects, positioning me to contribute effectively to future challenges.
+      </p>
+      <a href="#" class="hero-resume-btn">Resume</a>
+    </div>
+    <div class="hero-right">
+      <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Bobby Dhir" class="hero-img-circle">
+    </div>
+  </section>
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>Hi! I'm Bobby, a student passionate about software development, web technologies, and collaborating on creative projects. I enjoy solving problems and building useful tools for others.</p>
+  </section>
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">⚛️ React</div>
+      <div class="skill-card">🟨 JavaScript</div>
+      <div class="skill-card">🔶 HTML5</div>
+      <div class="skill-card">🔷 CSS3</div>
+      <div class="skill-card">🐍 Python</div>
+      <div class="skill-card">🔗 Git</div>
+      <div class="skill-card">🤝 Teamwork</div>
+    </div>
+  </section>
+  <section id="experience" class="experience-section">
+    <h2 class="exp-title">Experience</h2>
+    <p class="exp-subtitle">My work experience</p>
+    <div class="exp-timeline">
+      <div class="exp-timeline-row">
+        <div class="exp-timeline-dot"></div>
+        <div class="exp-timeline-line"></div>
+        <div class="exp-card-vertical">
+          <div class="exp-card-header">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" alt="Tech Startup" class="exp-logo">
+            <div>
+              <h3 class="exp-card-title">Software Developer Intern</h3>
+              <div class="exp-card-company">Tech Startup</div>
+              <div class="exp-card-date">June 2025 - Aug 2025</div>
+            </div>
+          </div>
+          <div class="exp-card-desc">Worked on a web dashboard for analytics using React and Node.js.</div>
+          <div class="exp-card-skills">
+            <span class="exp-card-skills-label">Skills:</span>
+            <span class="exp-card-skill">• React</span>
+            <span class="exp-card-skill">• Node.js</span>
+            <span class="exp-card-skill">• Chart.js</span>
+          </div>
+        </div>
+      </div>
+      <div class="exp-timeline-row">
+        <div class="exp-timeline-dot"></div>
+        <div class="exp-timeline-line"></div>
+        <div class="exp-card-vertical">
+          <div class="exp-card-header">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="XYZ Hackathon" class="exp-logo">
+            <div>
+              <h3 class="exp-card-title">Hackathon Winner</h3>
+              <div class="exp-card-company">XYZ Hackathon</div>
+              <div class="exp-card-date">Feb 2025</div>
+            </div>
+          </div>
+          <div class="exp-card-desc">Built a real-time chat app and won 1st prize among 100+ teams.</div>
+          <div class="exp-card-skills">
+            <span class="exp-card-skills-label">Skills:</span>
+            <span class="exp-card-skill">• React</span>
+            <span class="exp-card-skill">• Socket.io</span>
+            <span class="exp-card-skill">• Firebase</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card-adv">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Personal Portfolio">
+        <h3>Personal Portfolio</h3>
+        <p>This website! Built with React and Vite.</p>
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">Vite</span>
+          <span class="project-tag">CSS</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+      <div class="project-card-adv">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Student Resource App">
+        <h3>Student Resource App</h3>
+        <p>Mobile app for students to access resources and events.</p>
+        <div class="project-tags">
+          <span class="project-tag">React Native</span>
+          <span class="project-tag">Expo</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: bobbydhir@email.com</p>
+      <p>LinkedIn: linkedin.com/in/bobbydhir</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Bobby Dhir. All rights reserved.</p>
+  </footer>
+</body>
+</html>
